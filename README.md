@@ -1,3 +1,5 @@
+# Cancer Classification Model
+
 This repository contains a machine learning model for breast cancer classification using the K-Nearest Neighbors (KNN) algorithm. The model is implemented in R and trained on the cancerData.csv dataset.
 
 ## Main Function Points
