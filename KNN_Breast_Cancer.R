@@ -20,5 +20,8 @@ df_test<-df_normalized[270:333,]
 train_labels=df$diagnosis[1:270]
 test_labels=df$diagnosis[270:333]
 
+#Training the model
 knn_prediction<-knn(train=df_train, test = df_test, k=21, cl=train_labels)
+
+#Checking the model performance
 CrossTable(x=test_labels, y=knn_prediction, prop.chisq=FALSE)
